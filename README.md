@@ -44,7 +44,7 @@ DOT format is quite easy to master, and uses the following patterns:
 
 - `a -> b` link from a to b
 - `a -> b [style="dashed"]` dashed link from a to b (contamination)
-- `a -> b [style="dashed"]` grey link from a to b (uncertainty)
+- `a -> b [color="grey"]` grey link from a to b (uncertainty)
 - `alpha[color="grey", label="α"]` color alpha in grey (for hypothetical nodes, i.e., not extant manuscripts) and label it properly.
 
 **<span style="color:red">If you're hesitant, head over to the online [*editor*](https://edotor.net/?engine=dot?engine=dot#%23%20Place%20the%20cursor%20inside%20%22graph%22%20to%20get%20some%20refactoring%20options%0A%0Adigraph%20%7B%0A%0A%20%20%20%20%23%20To%20refactor%20nodes%2C%20place%20the%20cursor%20left%20to%20a%20node%20name%0A%20%20%20%20omega%20-%3E%20b%3B%0A%20%20%20%20omega%20-%3E%20c%3B%0A%20%20%20%20c%20-%3E%20d%3B%0A%20%20%20%20c%20-%3E%20e%3B%0A%20%20%20%20omega%20-%3E%201%3B%20%0A%20%20%20%201%20-%3E%20a%20%23%20use%20numbers%20for%20unlabelled%20nodes%20in%20the%20source%20stemma%0A%20%20%20%201%20-%3E%20aprime%0A%0A%20%20%20%20%23%20Hover%20over%20color%20names%20to%20get%20a%20color%20picker%0A%20%20%20%20b%20-%3E%20e%20%5Bstyle%3D%22dashed%22%5D%0A%20%20%20%20b%20-%3E%20c%20%5Bdir%3Dnone%2C%20style%3D%22dashed%22%5D%3B%20%23%20for%20the%20exception%20where%20an%20undirected%20link%20is%20existant.%0A%0A%20%20%20%20%23%20Grey%20color%20is%20used%20for%20hypothetical%20nodes%3B%20labels%20can%20be%20redefined%20if%20needed%0A%20%20%20%20omega%20%5Bcolor%3D%22grey%22%5D%3B%0A%20%20%20%201%20%5Bcolor%3D%22grey%22%2C%20label%3D%22%22%5D%3B%20%0A%20%20%20%20aprime%5Blabel%3D%22a'%22%5D%0A%0A%7D%0A) for creating the file !</span>**
